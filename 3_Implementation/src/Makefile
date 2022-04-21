@@ -1,7 +1,3 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
 SHELL := cmd.exe
 RM := rm -rf
 
@@ -31,11 +27,9 @@ OUTPUT_FILE_DEP:=
 LIB_DEP:=
 LINKER_SCRIPT_DEP:=
 
-# Every subdirectory with source files must be described here
 SUBDIRS := 
 
 
-# Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
 ../main.c
 
@@ -71,10 +65,6 @@ LIB_DEP+=
 LINKER_SCRIPT_DEP+= 
 
 
-# AVR32/GNU C Compiler
-
-
-
 ./%.o: .././%.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 4.9.2
@@ -82,26 +72,12 @@ LINKER_SCRIPT_DEP+=
 	@echo Finished building: $<
 	
 
-
-
-# AVR32/GNU Preprocessing Assembler
-
-
-
-# AVR32/GNU Assembler
-
-
-
-
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(strip $(C_DEPS)),)
 -include $(C_DEPS)
 endif
 endif
 
-# Add inputs and outputs from these tool invocations to the build variables 
-
-# All Target
 all: $(OUTPUT_FILE_PATH) $(ADDITIONAL_DEPENDENCIES)
 
 $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER_SCRIPT_DEP)
@@ -115,13 +91,6 @@ $(OUTPUT_FILE_PATH): $(OBJS) $(USER_OBJS) $(OUTPUT_FILE_DEP) $(LIB_DEP) $(LINKER
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature -R .user_signatures "7-Segment-Clock-ATMEGA328P.elf" "7-Segment-Clock-ATMEGA328P.srec"
 	"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-size.exe" "7-Segment-Clock-ATMEGA328P.elf"
 	
-	
-
-
-
-
-
-# Other Targets
 clean:
 	-$(RM) $(OBJS_AS_ARGS) $(EXECUTABLES)  
 	-$(RM) $(C_DEPS_AS_ARGS)   
