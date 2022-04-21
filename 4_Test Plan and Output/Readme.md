@@ -6,7 +6,7 @@
 | -------| ----------- | ------- | ------- | ------ |
 | H_01 | Generate Hex File | C file | Hex File | Implemented |
 | H_02 | Assemble Components | Search | Present in SimulIDE | Implemented |
-| H_03 | Make Circuit | Components | Circuit | Implemeted |
+| H_03 | Make Circuit | Components | Circuit | Implemented |
 | H_04 | Show Time | Run | Displayed | Implemented |
 
 # Low Level Test Plan
