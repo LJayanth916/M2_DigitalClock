@@ -11,7 +11,7 @@ The clock starts marking time from 00:00, in the moment that it's powered. To ad
 
 2. Should not get reset when turned off.
 
-3. Should be able to macth the timezones as required.
+3. Should be able to match the timezones as required.
 
 ## 4W and 1H
 
