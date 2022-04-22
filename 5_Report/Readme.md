@@ -61,22 +61,6 @@ LLR_01 __________________________ Circuit Design
 
 LLR_02 __________________________ Simulation
 
-# Structural Diagram
-
-![93801](https://raw.githubusercontent.com/sparikshit/M2-Embedded_DigitalClock/main/2_Architecture/Structural%20Diag.jpeg)
-
-# Behaviour Diagram 
-
-![31231](https://raw.githubusercontent.com/sparikshit/M2-Embedded_DigitalClock/main/2_Architecture/Behavioural%20Diag.png)
-
-# Block Diagram
-
-![23131](https://raw.githubusercontent.com/sparikshit/M2-Embedded_DigitalClock/main/2_Architecture/Block%20Diag.png)
-
-# Simulation
-
-![31112](https://raw.githubusercontent.com/sparikshit/M2-Embedded_DigitalClock/main/2_Architecture/Simulation.png)
-
 # Bill Of Materials
 
 Capacitor-22 : Capacitor 22 pF
