@@ -9,7 +9,6 @@ The clock starts marking time from 00:00, in the moment that it's powered. To ad
 
 | Folder | Description |
 |--------| ----------- |
-
 | 0_Abstract | Explanation about the project |
 | 1_Requirements | Describe about the requirements and research |
 | 2_Design | Descibe about the design of Project |
