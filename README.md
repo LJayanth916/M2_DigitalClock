@@ -21,3 +21,8 @@ The clock starts marking time from 00:00, in the moment that it's powered. To ad
 |Codeac|
 ---|
 |[![Codeac](https://static.codeac.io/badges/2-483756623.svg "Codeac")](https://app.codeac.io/github/LJayanth916/M2_DigitalClock)|
+
+
+https://api.codiga.io/project/33042/score/svg
+
+https://api.codiga.io/project/33042/status/svg
