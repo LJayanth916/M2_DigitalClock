@@ -19,3 +19,8 @@ The clock starts marking time from 00:00, in the moment that it's powered. To ad
 ## Circuit Diagram
 
 ![321311](https://raw.githubusercontent.com/sparikshit/M2-Embedded_DigitalClock/main/2_Architecture/Simulation.png)
+
+
+|Codeac|
+---|
+|[![Codeac](https://static.codeac.io/badges/2-483756623.svg "Codeac")](https://app.codeac.io/github/LJayanth916/M2_DigitalClock)|
